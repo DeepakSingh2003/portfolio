@@ -1,0 +1,233 @@
+body{
+    background-color: black;
+      font-family: "Poppins", sans-serif;
+}
+
+
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    gap: 32rem;
+    padding: 0 3rem;
+    color: white;
+}
+.navbarlinks a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: white;
+}
+.heading1 span
+{
+    color: crimson
+    
+}
+.navbarlinks a:hover
+{
+    color: crimson;
+}
+
+/* hero section */
+.herosection
+{
+    color: white;
+    line-height: 27px;
+    font-size: 23px;
+    display: flex;
+    margin-top: 1rem;
+   margin-left: 100px;
+   height: 425px;
+   
+    
+}
+.herosection h1{
+    font-size: 62px;
+    font-weight: 600;
+}
+.herosection a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+ span{
+    color: crimson;
+}
+ 
+.cbimg img
+{
+    padding: 0rem 10rem;
+    height: 387px;
+}
+/* about Section */
+.heading
+{
+    color: white;
+    margin-top: 40px;
+   text-align: center;
+   line-height: 12px;
+}
+.heading h4
+{
+    color: crimson;
+    font-size: 2rem;
+}
+.heading h3
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.text
+{
+    color: white;
+    display: flex;
+    padding: 0 2rem;
+    gap: 32px;
+    
+}
+
+    
+
+    .aboutimg img
+    {
+        height: 400px;
+       
+    }
+
+    .textcontent p
+    {
+        
+        font-size: 18px;
+    }
+.textcontent a
+{
+    
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+     text-decoration: none;
+     
+}
+
+/* Service */
+.servicecard
+{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+   
+}
+
+ .c
+{
+    padding: 32px;
+    background-color:  rgb(123, 107, 110);
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 280px;
+    border-radius: 9px;
+  } 
+
+  .servicecard :hover
+  {
+    background-color: crimson;
+  }
+/* skills */
+
+.skills
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scard
+{
+    padding: 22px;
+    background-color:  rgba(255, 255, 255, 0.829);
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 60%;
+    text-align: center;
+    color: black;
+    height: 200px;
+    text-align: center;
+  } 
+
+  .scard:hover
+  {
+    background-color: crimson;
+    color: white;
+  }
+.scard img
+{
+    width: 90px;
+    
+}
+/* contact */
+
+    .infoitem
+    {
+        font-size: 20px;
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .infoitem i{
+        font-size: 35px;
+        color: crimson;
+    }
+    .contactform input
+    {
+        width: 500px;
+        height: 32px;
+        color: white;
+        background-color: black;
+       margin: 1rem;
+       border: 1px solid crimson;
+       border-radius: 5px;
+
+       
+    }
+   .txt input
+   {
+    height: 120px;
+   
+   }
+   .contactform button
+   {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+     text-decoration: none;
+   }
+   .info{
+    margin-top: 52px;
+   }
