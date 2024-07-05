@@ -12,14 +12,15 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar">
-        <div class="heading1">
+        <div class="heading1" data-aos="zoom-in">
             <h1>Portfo<span>lio.</span></h1>
         </div>
-        <div class="navbarlinks">
+        <div class="navbarlinks" data-aos="zoom-in">
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#service">Service</a>
@@ -28,7 +29,7 @@
         </div>
     </div>
     <div class="herosection">
-        <div class="herocontent">
+        <div class="herocontent" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <h2>Hello, my name is</h2>
             <h1>Deepak Singh</h1>
             <h3>And I'm a <span>FullStack Developer</span></h3>
@@ -43,7 +44,7 @@
 
     <!-- About Section -->
 
-    <div class="about" id="about">
+    <div class="about" id="about" data-aos="fade-right">
         <div class="heading">
             <h3>About me</h3>
             <h4>-Who i am-</h4>
@@ -52,7 +53,7 @@
             <div class="aboutimg">
                 <img src="img\Figura-Desenho-Animado-Homem-de-Negocios-PNG.png" alt="" srcset="">
             </div>
-            <div class="textcontent">
+            <div class="textcontent" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <h2>I'm Deepak Singh and I'm a <span>FullStack Developer</span></h2>
                 <p>I’m an ambitious and successful individual with right attitude, looking for the right position that
                     provides
@@ -75,11 +76,11 @@
     </div>
     <hr>
     <!-- Service provide  -->
-    <div class="heading" id="service">
+    <div class="heading" id="service" data-aos="fade-right">
         <h3>Services</h3>
         <h4>-What i provide-</h4>
     </div>
-    <div class="servicecard">
+    <div class="servicecard" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="card1 c">
             <img src="img\s1.png" alt="" srcset="">
             <h2>Web Developing</h2>
@@ -100,10 +101,10 @@
     <hr>
     <!-- skills section -->
 
-    <div class="heading" id="skill">
+    <div class="heading" id="skill" data-aos="fade-right">
         <h3>Skills</h3>
         <h4>-What i Know-</h4>
-        <div class="skills">
+        <div class="skills" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="scard">
                 <img src="img\html.png" alt="" srcset="">
                 <h3>HTML</h3>
@@ -133,10 +134,11 @@
     </div>
     <hr>
     <!-- contact -->
-    <div class="heading">
+    <div class="heading" data-aos="fade-right">
         <h3>Contact</h3>
         <h4>-get in touch-</h4>
-        <div class="infoitem" id="contact">
+        <div class="infoitem" id="contact" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <div class="info">
                 <div class="info1">
                     <i class="ri-home-8-line"></i>
@@ -152,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="contactform">
+            <div class="contactform" data-aos="fade-right">
                 <input type="text" placeholder="Enter your Fullname"><br>
                 <input type="text" placeholder="Enter your email address"><br>
                 <div class="txt">
@@ -164,6 +166,13 @@
 
         </div>
     </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
