@@ -231,3 +231,48 @@ body{
    .info{
     margin-top: 52px;
    }
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+.navbarlinks
+{
+    display: flex;
+}
+.navbar
+{
+    gap: 18rem;
+}
+
+.herocontent
+{
+  font-size: 12px;
+ 
+ }
+ .herocontent h1
+ {
+   line-height: 62px;
+ }
+hr
+{
+    width: 1025px;
+}
+
+.about{
+    width: 1024px;
+}
+.heading
+{
+    width: 64rem;
+}
+.servicecard
+{
+    padding: 0 7rem;
+    gap: 53px;
+}
+.c
+{
+    text-align: center;
+    padding: 34px
+}
+
+
+}
